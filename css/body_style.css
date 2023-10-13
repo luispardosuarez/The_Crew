@@ -5,12 +5,9 @@
 
 body {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-content: center;
     align-content: space-around;
-}
-
-.img_equipo {
-    margin-left: 10%;
 }
 
 .img_index {
@@ -41,7 +38,7 @@ input {
 }
 
 label {
-    text-align:right;
+    height: 8%;
 }
 
 #submit {
