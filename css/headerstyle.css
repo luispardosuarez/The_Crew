@@ -1,3 +1,68 @@
-* {
+@font-face {
+    font-family: 'LexendGiga-Black';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Black.ttf');
+}
+
+@font-face {
+    font-family: 'LexendGiga-Bold';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'LexendGiga-ExtraBold';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'LexendGiga-ExtraLight';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'LexendGiga-Light';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Light.ttf');
+}
+
+@font-face {
+    font-family: 'LexendGiga-Medium';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'LexendGiga-Regular';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'LexendGiga-SemiBold';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'LexendGiga-Thin';
+    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Thin.ttf');
+}
+
+
+header {
     background-color: #C3F6EA;
+}
+
+.left {
+    width: 50vw;
+    display: flex;
+    align-items: baseline;
+}
+
+.right {
+    width: 50vw;
+}
+
+img {
+    width: 10vw;
+}
+
+h1 {
+    font-family:'LexendGiga-SemiBold';
+    color: #FF5D02;
 }
