@@ -3,6 +3,10 @@
 }
 
 .img_index {
-    width: 505;
-    height: 590;
+    width: 18vw;
+    height: 28vw;
+    border-radius: 2%;
+    border-color: #EA7634;
+    border-style: solid;
+    
 }
