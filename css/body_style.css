@@ -2,6 +2,13 @@
     font-family: 'LexendGiga';
     src: url(../assets/font/Lexend_Giga_Font/LexendGiga-VariableFont_wght.ttf);
 }
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+
 .img_equipo {
     margin-left: 10%;
 }
@@ -15,16 +22,20 @@
 }
 
 .formulario_login {
+    margin-left: 20%;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .form_login {
     font-family: 'LexendGiga' ;
-    justify-content: center;
+    text-align: right;
+   
 }
 
 input {
-    border-radius: 3%;
+    border-radius: 10% 20% 10% 20%;
     border-style: solid;
     border-color: #EA7634;
 }
@@ -35,4 +46,6 @@ label {
 
 #submit {
     font-family: 'LexendGiga';
+    appearance: textfield;
 }
+
