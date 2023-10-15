@@ -3,22 +3,36 @@
     src: url(../assets/font/Lexend_Giga_Font/LexendGiga-VariableFont_wght.ttf);
 }
 
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
 .caja {
     width: 100%;
-}
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 33px 100px;
+    }
+
 
 .img_equipo{
 width: 50%;
 border-radius: 10px;
-overflow: hidden;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-padding: 177px 130px 33px 95px;
+padding: 100px 50px 33px 95px;
 }
 
 .img_index {
-
     width: 18vw;
     height: 28vw;
     border-radius: 5%;
@@ -30,7 +44,6 @@ padding: 177px 130px 33px 95px;
 
 .formulario_login {
     width: 50%;
-    margin-left: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,19 +56,34 @@ padding: 177px 130px 33px 95px;
    
 }
 
+.caja_formulario{
+    position: relative;
+    width: 100% inherit;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
 input {
+    font-family: 'LexendGiga';
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+    width: 90% inherit;
+    height: 40px;
+    padding: 0 30px 0 68px;
     border-radius: 23px;
     border-style: solid;
     border-color: #EA7634;
 }
 
-.form_login input[type='submit'] {
+input[type='submit'] {
     font-family: 'LexendGiga';
     border: 1 px solid #EA7634;
     font-size:medium;
     border-radius: 20px;
+    display: flex;
+    align-content: center;
     margin-top: 10%;
-    margin-right: 25%;
     width: 8em;
 }
 
