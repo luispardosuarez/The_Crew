@@ -53,13 +53,18 @@ padding: 100px 50px 33px 95px;
     font-family: 'LexendGiga' ;
     text-align: right;
     padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center
    
 }
 
 .caja_formulario{
     position: relative;
     width: 100% inherit;
-    z-index: 1;
+    /*z-index: 1;*/
     margin-bottom: 10px;
 }
 
@@ -70,21 +75,10 @@ input {
     display: block;
     width: 90% inherit;
     height: 40px;
-    padding: 0 30px 0 68px;
+    padding: 0 30px 0 30px;
     border-radius: 23px;
     border-style: solid;
     border-color: #EA7634;
-}
-
-input[type='submit'] {
-    font-family: 'LexendGiga';
-    border: 1 px solid #EA7634;
-    font-size:medium;
-    border-radius: 20px;
-    display: flex;
-    align-content: center;
-    margin-top: 10%;
-    width: 8em;
 }
 
 .symbol-input {
@@ -101,3 +95,21 @@ input[type='submit'] {
     pointer-events: none;
     color: #666666;
   }
+
+  .caja-boton {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+input[type='submit'] {
+    font-family: 'LexendGiga';
+    border: 1 px solid #EA7634;
+    font-size:medium;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    margin-top: 10%;
+    width: 18em;
+}
