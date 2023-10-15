@@ -3,16 +3,18 @@
     src: url(../assets/font/Lexend_Giga_Font/LexendGiga-VariableFont_wght.ttf);
 }
 
-/* body {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-content: space-around;
-} */
+.caja {
+    width: 100%;
+}
 
 .img_equipo{
 width: 50%;
-
+border-radius: 10px;
+overflow: hidden;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 177px 130px 33px 95px;
 }
 
 .img_index {
