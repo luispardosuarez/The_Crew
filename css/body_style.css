@@ -5,12 +5,13 @@
 
 .contenedor {
     width: 100%;
+    height: 70%;
     margin: 0 auto;
-    min-height: 90vh;
+    min-height: 50vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding: 15px;
 }
 
@@ -19,22 +20,23 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px 33px 200px;
+    padding: 1px 200px 33px 200px;
     }
 
 
 .img_equipo{
 width: 50%;
+height: 60%;
 border-radius: 10px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-padding: 100px 50px 33px 95px;
+padding: 10px 50px 33px 95px;
 }
 
 .img_index {
-    width: 22vw;
-    height: 34vw;
+    width: 18vw;
+    height: 28vw;
     min-width: 400 px;
     border-radius: 5%;
     border-color: #EA7634;
@@ -67,18 +69,19 @@ padding: 100px 50px 33px 95px;
     width: 100% inherit;
     margin-bottom: 30px;
 }
-#usuario {
-    padding-left: 60px;
+
+#usuario, #contraseña {
+    padding-left: 68px;
 }
+
 
 input {
     font-family: 'LexendGiga';
     font-size: 15px;
     line-height: 1.5;
     display: block;
-    width: 90vm;
+    width: 240px;
     height: 40px;
-    padding: 0 30px 0 68px;
     border-radius: 23px;
     border-style: solid;
     border-color: #EA7634;
@@ -114,6 +117,7 @@ input[type='submit'] {
     display: flex;
     align-content: center;
     margin-top: 10%;
+    padding-left: 35px;
     width: 18em;
 }
     
