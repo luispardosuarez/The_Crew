@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/body_style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/font/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="caja">
+      <div class="img_equipo">
+          <img  class="img_index" src="./assets/img/login_img.jpg" alt="Imagen trabajo en equipo">
+      </div>
+
+      <div class="formulario_login">
+          <form action="/pag/pag2.html" method="post" class="form_login" target="_blank">
+              <div class="caja_formulario" data-validate = "Usuario es requerido">
+                <input type="text" name="usuario" id="usuario"  placeholder="Usuario"/>
+                <span class="focus-input"></span>
+                      <span class="symbol-input">
+                      <i class="fa fa-user" ></i>
+                      </span>
+              </div>
+
+              <div class="caja_formulario" data-validate = "Pasaporte es requerido">
+                <input type="password" name="Contraseña" id="contraseña" required placeholder="Contraseña"/>
+                  <span class="focus-input"></span>
+                        <span class="symbol-input">
+                        <i class="fa fa-lock" ></i>
+                        </span>
+              </div>
+              <div class="caja-boton">
+                <input type="submit" value="Login" />
+              </div>
+            </form>
+      </div>
+          
+    </div>
+  </div>
+</body>
+</html>
