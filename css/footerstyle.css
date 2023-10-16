@@ -1,10 +1,3 @@
-@import url(./body_style.css);
-
-@font-face {
-    font-family: 'LexendGiga-Black';
-    src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Black.ttf');
-}
-
 @font-face {
     font-family: 'LexendGiga-Bold';
     src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Bold.ttf');
@@ -44,32 +37,6 @@
     font-family: 'LexendGiga-Thin';
     src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Thin.ttf');
 }
-
-
-header {
-    background-color: #C3F6EA;
-}
-
-.left {
-    width: 50vw;
-    display: flex;
-    align-items: baseline;
-}
-
-.right {
-    width: 50vw;
-}
-
-img {
-    width: 10vw;
-}
-
-h1 {
-    font-family:'LexendGiga-SemiBold';
-    color: #FF5D02;
-}
-
-
 
 footer {
     background-color: #C3F6EA;
