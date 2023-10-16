@@ -38,27 +38,23 @@
     src: url('../assets/Fonts/Lexend_Giga/static/LexendGiga-Thin.ttf');
 }
 
-
 footer {
     background-color: #C3F6EA;
 }
 
-.footer-left .footer-middle .footer-right {
-    width: 33.9vw;
-}
-
 .footer-middle {
     display: flex;
-    align-items:center
+    align-items:center;
+
+    font-family:'LexendGiga-SemiBold';
+margin-left: 42vw;
 }
 
 .copyimg {
     width: 1vw;
     margin-bottom: 5vh;
-    
 }
 
 h2 {
-    font-family:'LexendGiga-SemiBold';
     color: #FF5D02;
 }
